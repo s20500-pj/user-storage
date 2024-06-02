@@ -18,8 +18,8 @@ import java.util.Optional;
 @Stateless
 public class UserRepository {
 
-    private static final List<String> ALLOWED_SORT_FIELDS = List.of("username", "gender", "age", "createdAt");
-    private static final List<String> ALLOWED_FILTER_FIELDS = List.of("username", "gender", "age");
+    private static final List<String> ALLOWED_SORT_FIELDS = List.of("username", "gender", "email", "age", "createdAt");
+    private static final List<String> ALLOWED_FILTER_FIELDS = List.of("username", "gender", "email", "age");
     private static final String USERNAME = "username";
     private static final String EMAIL = "email";
     private static final String GENDER = "gender";

@@ -13,13 +13,6 @@ public class UserController {
     @Inject
     private UserService userService;
 
-    @GET
-    @Path("/test")
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response test() {
-        return Response.ok().status(Response.Status.CREATED).build();
-    }
-
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
